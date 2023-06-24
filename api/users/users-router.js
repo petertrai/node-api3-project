@@ -40,5 +40,5 @@ router.post('/:id/posts', (req, res) => {
   // this needs a middleware to verify user id
   // and another middleware to check that the request body is valid
 });
-
+module.exports = router
 // do not forget to export the router
